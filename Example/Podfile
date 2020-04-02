@@ -1,0 +1,6 @@
+use_frameworks!
+target 'libaes_Tests' do
+  pod 'libaes', :path => '../'
+  
+  
+end

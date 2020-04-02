@@ -1,0 +1,16 @@
+PODS:
+  - libaes (0.1.0)
+
+DEPENDENCIES:
+  - libaes (from `../`)
+
+EXTERNAL SOURCES:
+  libaes:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libaes: 55abaec286f8cbfd9a3d3e13ab85b81a5aade725
+
+PODFILE CHECKSUM: 84bca847e2ff35ea1a9108d3626f228197bad02a
+
+COCOAPODS: 1.9.1

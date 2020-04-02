@@ -1,0 +1,6 @@
+framework module libaes {
+  umbrella header "libaes-umbrella.h"
+
+  export *
+  module * { export * }
+}

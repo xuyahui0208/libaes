@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		238F42813054BC1E81D5D2B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5155F6B60BDE16FE1E088BF8 /* libaes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libaes.podspec; path = ../libaes.podspec; sourceTree = "<group>"; };
+		238F42813054BC1E81D5D2B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5155F6B60BDE16FE1E088BF8 /* libaes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libaes.podspec; path = ../libaes.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,7 +29,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61A6E32F996001072B3E59C7 /* Pods-libaes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libaes_Tests.debug.xcconfig"; path = "Target Support Files/Pods-libaes_Tests/Pods-libaes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		778F0FE7B53FCF3FF03CBC8F /* Pods_libaes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libaes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D750BADA6A0A8E7C025D6EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7D750BADA6A0A8E7C025D6EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C25FBB014028FC678C6A0EF7 /* Pods-libaes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libaes_Tests.release.xcconfig"; path = "Target Support Files/Pods-libaes_Tests/Pods-libaes_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				61A6E32F996001072B3E59C7 /* Pods-libaes_Tests.debug.xcconfig */,
 				C25FBB014028FC678C6A0EF7 /* Pods-libaes_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
